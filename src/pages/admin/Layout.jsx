@@ -1,6 +1,5 @@
-import React from 'react';
-import TopBar from '../../components/admin/top-bar/TopBar';
 import { Outlet } from 'react-router-dom';
+import TopBar from '../../components/admin/top-bar/TopBar';
 
 function Layout(props) {
 	return (

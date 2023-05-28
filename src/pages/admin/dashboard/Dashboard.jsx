@@ -3,9 +3,7 @@ import './dashboard.css';
 
 function Dashboard(props) {
 	return (
-		<div>
-			
-		</div>
+		<h2>Dashboard</h2>
 	);
 }
 
