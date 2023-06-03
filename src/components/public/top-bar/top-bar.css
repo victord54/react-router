@@ -11,3 +11,13 @@ nav ul {
 	display: flex;
 	gap: 50px;
 }
+
+nav a {
+	font-weight: 700;
+	font-size: 1.5rem;
+	transition: all .5s ease;
+}
+
+nav a:hover {
+	
+}
