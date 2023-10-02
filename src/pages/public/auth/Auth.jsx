@@ -1,4 +1,3 @@
-import axios from "axios";
 import React, { useState } from "react";
 
 function Auth(props) {
@@ -11,10 +10,6 @@ function Auth(props) {
 	function onSubmit(e) {
 		e.preventDefault();
 		console.log(credentials);
-		axios
-			.post("http://localhost:3001/api/auth/login", credentials)
-			.then((res) => console.log(res))
-			.catch((err) => console.log(err));
 	}
 
 	return (
