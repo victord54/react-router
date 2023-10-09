@@ -7,11 +7,11 @@ import Contact from "../pages/public/contact/Contact";
 import Auth from "../pages/public/auth/Auth";
 
 const router = (
-	<Route path="/" element={<Layout />} errorElement={<ErrorPage />}>
-		<Route index element={<Home />} />
-		<Route path="/contact" element={<Contact />} />
-		<Route path="/auth" element={<Auth />} />
-	</Route>
+    <Route path="/" element={<Layout />} errorElement={<ErrorPage />}>
+        <Route index element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/auth" element={<Auth />} />
+    </Route>
 );
 
 export default router;

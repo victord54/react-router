@@ -6,18 +6,18 @@ import Users from "../pages/admin/users/Users";
 import AuthGuard from "./AuthGuard";
 
 const router = (
-	<Route
-		path="/admin"
-		element={
-			<AuthGuard user={true}>
-				<Layout />
-			</AuthGuard>
-		}
-		errorElement={<ErrorPage />}
-	>
-		<Route index element={<Dashboard />} />
-		<Route path="users" element={<Users />} />
-	</Route>
+    <Route
+        path="/admin"
+        element={
+            <AuthGuard user={true}>
+                <Layout />
+            </AuthGuard>
+        }
+        errorElement={<ErrorPage />}
+    >
+        <Route index element={<Dashboard />} />
+        <Route path="users" element={<Users />} />
+    </Route>
 );
 
 export default router;

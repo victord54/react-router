@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
 
 test("basic", () => {
-	  expect(1 + 1).toBe(1);
+    expect(1 + 1).toBe(1);
 });

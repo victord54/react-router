@@ -1,23 +1,19 @@
 nav {
-	padding: 20px 30px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	border-bottom: 0.1vh solid wheat;
-	margin-bottom: 1vh;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.1vh solid wheat;
+    margin-bottom: 1vh;
 }
 
 nav ul {
-	display: flex;
-	gap: 50px;
+    display: flex;
+    gap: 50px;
 }
 
 nav a {
-	font-weight: 700;
-	font-size: 1.5rem;
-	transition: all .5s ease;
-}
-
-nav a:hover {
-	
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
 }

@@ -1,51 +1,51 @@
 html {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 body {
-	background-color: darkslategray;
-	font-family: 'Roboto', sans-serif;
+    background-color: darkslategray;
+    font-family: "Roboto", sans-serif;
 }
 
 * {
     margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	color: wheat;
-	/* border: 1px solid red; */
+    padding: 0;
+    box-sizing: border-box;
+    color: wheat;
+    /* border: 1px solid red; */
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 a {
-	color: thistle;
-	text-decoration: none;
+    color: thistle;
+    text-decoration: none;
 }
 
 a:hover {
-	color: white;
+    color: white;
 }
 
 h1 {
-	font-size: 3rem;
-	text-align: center;
-	font-weight: 800;
-	margin-bottom: 30px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 30px;
 }
 
 h2 {
-	font-size: 2rem;
-	font-weight: 700;
-	text-align: center;
-	margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 h3 {
-
 }
 
-input, button {
-	color: black;
+input,
+button {
+    color: black;
 }
