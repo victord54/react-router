@@ -15,7 +15,7 @@ function TopBar() {
                     <NavLink to={"/about"}>About</NavLink>
                 </li>
                 <li>
-                    <NavLink to={"/contact"}>Contact</NavLink>
+                    <NavLink to={"/article"}>Article</NavLink>
                 </li>
                 <li>
                     <NavLink to={"/auth"}>Authentication</NavLink>
